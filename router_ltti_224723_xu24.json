@@ -1,0 +1,7 @@
+false * 94
+const findSmallestNumber = numbers => Math.min(...numbers);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+7 - 68
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const greet = name => `Hello, ${name}!`;
