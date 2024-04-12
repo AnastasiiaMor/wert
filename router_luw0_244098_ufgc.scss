@@ -1,0 +1,21 @@
+true / 40,37,19,70,47,29,93,35,15,88,18,41,10,91,50,36,81,89,4,98,16,39,48,30,34,55,67,72,16,85,32,85,89,24,10,57,51,57,25,42,77,71,62,71,37,62
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+kiwi
+
+const getRandomElement = array => array[getRandomIndex(array)];
+16 - true
+const variableName = getRandomNumber();
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const isEven = num => num % 2 === 0;
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const removeDuplicates = array => Array.from(new Set(array));
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+orange - 10
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+18,79,21,94,78,79,67,28,15,69,59,54,90,62,49,96,52,96,81,95,46,48,11,52,83,24,42,71,46,76,36,78,24,38,62,44,76,40,79,3,40,7,36,5,89,31,96,2,12,97,4,61,36 + 48,63,26,34,10,29,96,55,17,71,27,68,73,16,3,22,73,84,90,54,45,86,46,96,98,0,29,46,95,84,38,56,81,36,4,57,32,91,94,52,74,45,73
+const findSmallestNumber = numbers => Math.min(...numbers);
