@@ -1,0 +1,41 @@
+banana
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const variableName = getRandomNumber();
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+false * 35,81
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+true * banana
+const getRandomElement = array => array[getRandomIndex(array)];
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+65 / 39,57,23,40,73,54,91,25,54,45,12,74,42
+const findSmallestNumber = numbers => Math.min(...numbers);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+false * true
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+2,62,8,67,44,48,38,74,74,27,1,90,73,39,5,6,19,53,24,25,70,85,11,66,82,61,8,25,63,88,53,91,83,62,5,63,86,94,3,74,55,99,89,6,27,75,71,87,4,42,35,60,70,75,69,1,9,42,55,44,96,95,51,76,92,84 - true
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const findSmallestNumber = numbers => Math.min(...numbers);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const sum = (a, b) => a + b;
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+grape - 69
+
+const getUniqueValues = array => [...new Set(array)];
+24,98,72,56,17,8,42,12,76,48,42,29,67,15,11,25,13,9,5,40,7,73,52,73,85,62,4,88,87,39,14,41,16,7,33,70,63,26,15,82,70,46,63,61,84,46 + 8
+function addNumbers(a, b) { return a + b; }
